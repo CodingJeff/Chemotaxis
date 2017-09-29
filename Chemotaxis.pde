@@ -52,6 +52,8 @@ class germ
   void show()
   {
     fill((int)(Math.random()*256)+1, (int)(Math.random()*256+1), (int)(Math.random()*256+1));
+    noStroke();   
     ellipse(myX, myY, 6, 6);
+    
   }
 }
