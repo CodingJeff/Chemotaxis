@@ -3,8 +3,8 @@ germ [] aBunch;
 void setup()   
 {  
   background(0);
-  ellipse(250,250,350,350);
   size (500, 500);
+  ellipse(250,250,350,350);
   aBunch=new germ[2000];
   for (int i=0; i < aBunch.length; i++)
   {
